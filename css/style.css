@@ -190,6 +190,13 @@ footer {
 }
 
 /*Media Querys*/
+/*1024px*/
+@media(max-width: 1024px) {
+  body {
+    font-size: 25px;
+  }
+}
+
 /*414px*/
 @media(max-width: 450px) {
   nav li {
