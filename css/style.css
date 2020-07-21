@@ -257,6 +257,14 @@ footer {
   }
 }
 
+#floating {
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+}
+
+
+
 /*360px*/
 @media(max-width: 360px) {
   header h1 {
