@@ -255,12 +255,16 @@ footer {
 
     border-radius: 15px;
   }
-}
 
-#floating {
-  padding: 15px;
-  background-color: #333;
-  color: #fff;
+  .title {
+    line-height: 1.5rem
+  }
+
+  #floating {
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+  }
 }
 
 
