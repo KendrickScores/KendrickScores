@@ -256,9 +256,7 @@ footer {
     border-radius: 15px;
   }
 
-  .title {
-    line-height: 1.5rem
-  }
+
 
   #floating {
     padding: 15px;
@@ -296,6 +294,10 @@ footer {
 
   .current {
     font-size: 18px;
+  }
+
+  .title {
+    line-height: 2.8rem
   }
 
 }
