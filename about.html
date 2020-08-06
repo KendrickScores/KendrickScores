@@ -95,17 +95,19 @@
         </div>
     </section>
     <!--Newsletter-->
-    <!--
-    <section id="newsletter">
+    <section id="newsletter" data-aos="fade-right" data-aos-duration="2000">
         <div class="container">
-            <p class="info">
-                Wanna be the first to hear released scores Click Subscribe now
-                <a href="#" class="">Subscribe Now!</a>
-            </p>
-
+            <form name="Newsletter" method="POST" data-netlify="true">
+                <h1>Join Our Newsletter</h1>
+                <p>Join my newsletter to stay Up-To-Date When new scores are released!</p>
+                <div class="email-box">
+                    <i class="fas fa-envelope"></i>
+                    <input class="tbox" type="email" name="email" placeholder="Enter your email" required>
+                    <button class="btn" type="submit" name="button">Subscribe</button>
+                </div>
         </div>
+        </form>
     </section>
--->
     <!--Footer-->
     <footer>
         <p class="info">Copyright &copy; 2020 Kendrick Scores</p>
