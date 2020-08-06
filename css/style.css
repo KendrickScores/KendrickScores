@@ -135,59 +135,32 @@ audio {
   padding-top: 15px;
 }
 
-/*Newsletter/footer*/
-.container2 {
-  background: url(bg.jpg) no-repeat center;
-  background-size: cover;
-  padding: 100px 40px;
+/*Newsletter*/
+#newsletter {
   text-align: center;
-  color: white;
+  font-size: 18px;
+  padding: 20px;
+  background-color: #1ddbbf;
 }
 
-.container2 p {
-  max-width: 600px;
-  margin: 40px auto;
-  font-size: 15px;
-  font-weight: 300;
-}
-
-.email-box {
-  height: 40px;
-  justify-content: center;
-  display: flex;
-}
-
-.email-box i {
-  background: #2f3542;
-  width: 40px;
-  line-height: 40px;
-}
-
-.tbox,
+#newsletter .tbox,
 .btn {
-  border: none;
-  outline: none;
+  padding: 15px;
 }
 
-.tbox {
-  width: 0px;
-  transition: 0.6s;
-}
-
-.email-box:hover>.tbox,
-.tbox:focus {
-  width: 260px;
-  padding: 0 10px;
-}
-
-.btn {
-  background: #2f3542;
-  color: white;
-  padding: 0 10px;
+#newsletter .btn {
+  background: none;
+  border: 1px solid;
   text-transform: uppercase;
-  cursor: pointer;
 }
 
+#newsletter .btn:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all 0.8s;
+}
+
+/*Footer*/
 footer {
   background-color: orange;
   padding: 15px;
@@ -260,15 +233,18 @@ footer {
 
     border-radius: 15px;
   }
+
+  #floating {
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+  }
+
+  #newsletter .btn {
+    margin-top: 5px;
+  }
+
 }
-
-#floating {
-  padding: 15px;
-  background-color: #333;
-  color: #fff;
-}
-
-
 
 /*360px*/
 @media(max-width: 360px) {
